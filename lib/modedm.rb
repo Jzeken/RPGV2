@@ -1,4 +1,4 @@
-require "_geme"
+require "_game"
 
 class Deathmatch < _game
   def initialize
