@@ -1,5 +1,5 @@
 require "spec_helper"
-require "_healer.rb"
+require "healer.rb"
 
 describe Healer do
   describe " #initialize" do

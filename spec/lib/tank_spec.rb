@@ -1,5 +1,5 @@
 require "spec_helper"
-require "_tank.rb"
+require "tank.rb"
 
 describe Tank do
   describe " #initialize" do

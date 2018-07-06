@@ -1,5 +1,5 @@
 require "spec_helper"
-require "_warrior.rb"
+require "warrior.rb"
 
 describe Warrior do
   describe " #initialize" do

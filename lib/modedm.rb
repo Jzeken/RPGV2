@@ -1,8 +1,8 @@
-require "_game"
+require './lib/game'
 
-class Deathmatch < _game
-  def initialize
-    match(hero1,hero2)
+class Deathmatch
+  def initiatlize(hero1, hero2)
+    match(hero1, hero2)
     process(attacker, defender)
   end
 end

@@ -1,11 +1,9 @@
-require "_game"
+require './lib/game'
 
-class Turnbase < _game
-  turn = 1
-  match(hero1,hero2)
-  puts "== #{turn} =="
-  while turn != 1 do
-    hp = process(attacker,defender)
-    break if hp == 0
-  end
+class Turnbase
+  #number of turns
+  #Diplay turns
+  #While turns in not equal to 5
+  #do process in _game.rb
+  #If hp drops to 0 attacker win defender lose
 end

@@ -1,12 +1,12 @@
-require "modedm"
-require "modeturns"
-require "_mage"
-require "_healer"
-require "_warrior"
-require "_tank"
+require './lib/modedm'
+#require './lib/modeturn'
+require './lib/mage'
+require './lib/healer'
+require './lib/warrior'
+require './lib/tank'
 
 class Main
   def duel (hero1, hero2, mode)
-    x = mode.new(hero1,hero2)
+    x = mode.new.initialize()
   end
 end

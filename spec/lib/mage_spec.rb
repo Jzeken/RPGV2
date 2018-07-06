@@ -1,5 +1,5 @@
 require "spec_helper"
-require "_mage.rb"
+require "mage.rb"
 
 describe Mage do
   describe " #initialize" do
