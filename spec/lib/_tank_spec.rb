@@ -10,6 +10,7 @@ describe Tank do
       expect(t.crit) == 20
       expect(t.damage) == 0.5
       expect(t.name) == "Tank"
+      expect(t.chance) == 50
     end
   end
 end

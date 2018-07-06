@@ -1,6 +1,6 @@
 class Healer
   attr_accessor :hp, :armor
-  attr_reader :crit, :damage, :name
+  attr_reader :crit, :damage, :name, :chance
 
   def initialize 
     @hp = 60
@@ -8,5 +8,6 @@ class Healer
     @crit = 20
     @damage = 5
     @name = "Healer"
+    @chance = 25
   end
 end

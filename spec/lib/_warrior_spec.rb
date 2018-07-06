@@ -10,6 +10,7 @@ describe Warrior do
       expect(w.crit) == 25
       expect(w.damage) == 25
       expect(w.name) == "Warrior"
+      expect(w.chance) == 25
     end
   end
 end

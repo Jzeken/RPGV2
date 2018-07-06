@@ -10,6 +10,7 @@ describe Healer do
       expect(h.crit) == 20
       expect(h.damage) == 5
       expect(h.name) == "Healer"
+      expect(h.chance) == 25
     end
   end
 end

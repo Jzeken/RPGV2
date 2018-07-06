@@ -1,6 +1,6 @@
 class Warrior
   attr_accessor :hp, :armor
-  attr_reader :crit, :damage, :name
+  attr_reader :crit, :damage, :name, :chance
 
   def initialize 
     @hp = 100
@@ -8,5 +8,6 @@ class Warrior
     @crit = 125
     @damage = 25
     @name = "WARRIOR"
+    @chance = 25
   end
 end

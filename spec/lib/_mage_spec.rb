@@ -10,6 +10,7 @@ describe Mage do
       expect(m.crit) == 100
       expect(m.damage) == 100
       expect(m.name) == "Mage"
+      expect(m.chance) == 80
     end
   end
 end
